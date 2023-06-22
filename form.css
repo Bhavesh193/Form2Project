@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&family=Lato:wght@300&family=Montserrat:wght@700;900&family=Mynerve&family=Oswald&family=Poppins:wght@400;600&family=Roboto+Mono:wght@300;500&family=Tilt+Prism&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bodoni Moda', serif;
+    background-color:rgb(150, 125, 125);
+}
+
+.container{
+    width: 800px;
+    height: 100vh;
+    background-color: rgb(196, 174, 174);
+    margin:auto ;
+    position: relative;
+}
+
+.form-control{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(247, 243, 243);
+    position: absolute;
+    margin: 100px 150px;
+    box-shadow: 0 0 10px 3px gray;
+}
+
+.img-control{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+img{
+    width: 200px;
+    margin: 20px;
+}
+.username , .password{
+    font-size: 20px;
+    margin: 10px;
+    
+
+}
+input{
+    width: 100%;
+     padding: 8px;
+     margin:0px 0px;
+    border: 1px solid #9b2828;
+    box-sizing: border-box;
+}
+
+.login{
+    text-align: center;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 3px;
+     width: 100%;
+     background: green;
+}
+
+.login button{
+    background-color: green;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+.login:hover{
+    background-color: gray;
+    background-color: gray;
+}
+
+.checkbox{
+    margin: 0px;
+    font-size: 15px;
+    margin: 0px 40px;
+}
+#checkbox{
+    margin: -100px -330px;
+}
+
+.submit:hover{
+    background-color: green;
+}
+
+.last-section{
+    background-color: rgb(218, 221, 215);
+    height: 50px;
+}
+
+.last-section button{
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(235, 27, 27);
+}
+
+.forgot{
+   float: right;
+  
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blue;
+}
+
+@media screen and (max-width: 300px) {
+   
+    .forgot {
+        display: block;
+        float: none;
+    }
+
+    .submit{
+        width: 100%;
+    }
+}
